@@ -14,6 +14,7 @@ to save a local settings.json to your home directory for debugging
 - [x] Pull local config
 - [x] Audit User highlights
 - [ ] Autofix User Highlights
+
 **Remote:**
 - [ ] pull from git
 - [ ] push to git
