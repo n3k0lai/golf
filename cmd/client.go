@@ -1,6 +1,3 @@
-/*
-Copyright © 2022 Nicholai <EMAIL ADDRESS>
-*/
 package cmd
 
 import (
@@ -12,7 +9,7 @@ import (
 // clientCmd represents the client command
 var clientCmd = &cobra.Command{
 	Use:   "client",
-	Short: "A brief description of your command",
+	Short: "Controls the client storage of the config",
 	Long: `A longer description that spans multiple lines and likely contains examples
 and usage of using your command. For example:
 

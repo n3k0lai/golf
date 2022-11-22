@@ -1,6 +1,3 @@
-/*
-Copyright © 2022 Nicholai <EMAIL ADDRESS>
-*/
 package cmd
 
 import (
@@ -12,7 +9,7 @@ import (
 // remoteCmd represents the remote command
 var remoteCmd = &cobra.Command{
 	Use:   "remote",
-	Short: "A brief description of your command",
+	Short: "Controls the remote storage of the config",
 	Long: `A longer description that spans multiple lines and likely contains examples
 and usage of using your command. For example:
 
