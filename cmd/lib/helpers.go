@@ -58,7 +58,7 @@ func GetChatterinoConfigJSON() string {
 	}
 
 	// parse config
-	settingsPath := path + "/settings/settings.json"
+	settingsPath := path + "/Settings/settings.json"
 
 	fileContent, ioErr := ioutil.ReadFile(settingsPath)
 	if ioErr != nil {
