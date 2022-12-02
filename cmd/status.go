@@ -8,7 +8,7 @@ import (
 
 // clientCmd represents the client command
 var clientCmd = &cobra.Command{
-	Use:   "client",
+	Use:   "status",
 	Short: "Controls the client storage of the config",
 	Long: `A longer description that spans multiple lines and likely contains examples
 and usage of using your command. For example:

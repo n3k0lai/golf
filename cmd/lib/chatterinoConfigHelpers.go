@@ -90,30 +90,6 @@ func ParseChatterinoConfigJSON(jsonString string) ChatterinoConfig {
 	return chatterinoConfig
 }
 
-func AuditConfig(config ChatterinoConfig) bool {
-	println("Auditing user highlights")
-	// print highlight count
+func PushChatterinoConfigChanges(configUpdates ChatterinoConfig) {
 
-	println("highlight count: " + fmt.Sprint(len(config.Highlighting.Users)))
-	// iterate through highlights
-	visited := make(map[string]int, 0)
-	for i := 0; i < len(config.Highlighting.Users); i++ {
-		//if visited[config.Highlighting.Users[i].Pattern] {
-		//   return config.Highlighting.Users[i].Pattern
-		//} else {
-		visited[config.Highlighting.Users[i].Pattern]++
-		//}
-
-	}
-	// if there are any duplicates, note their index
-	validConfig := true
-	for key, element := range visited {
-		if element > 1 {
-			fmt.Println("Duplicate Key:", key, "=>", "Count:", element)
-			validConfig = false
-		}
-	}
-	//println(len(visited))
-	// for every duplicate set
-	return validConfig
 }
